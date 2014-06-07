@@ -1,0 +1,234 @@
+/*
+	
+	Paul Bronson	
+	March 16, 2014
+	C SCI 212 - A10: SLIDER CUSTOMIZATION CSS
+	http://ned.highline.edu/~pabronson/212/assignments/10/css/serial-scroll.css
+
+*/
+ 
+ 
+ 
+ 
+/* ================================================================ 
+jQuery.SerialScroll - This copyright notice must be untouched at all times.
+The original version of this stylesheet and the associated (x)html, and js
+
+ * jQuery[a] - Animated scrolling of series 
+ * Copyright (c) 2007-2008 Ariel Flesler - aflesler(at)gmail(dot)com | http://flesler.blogspot.com
+ * Dual licensed under MIT and GPL.
+ * Date: 3/20/2008
+ * @author Ariel Flesler
+ * @version 1.2.1
+ *
+ * http://flesler.blogspot.com/2008/02/jqueryserialscroll.html
+
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+ 
+ 
+ /* common styling */
+
+body {
+	margin:6px; 
+	padding:0px;
+	text-align:center;
+	background-image: url(../images/snowdots.jpg);
+	background-color: #A2D6FB;
+	}
+	
+ #wrapper {
+ width:960px;
+ padding:0px;
+ margin-left:auto;
+ margin-right:auto;
+ border:0px solid #ff0000;
+ }
+ 
+.hide {display:none;}
+
+ 
+ /* screen styling */
+
+
+.next, .prev{
+	cursor:pointer;
+}
+
+#screen{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	height:560px;
+	width:900px;
+	margin-top:0px;
+	border:0px solid #ff00ff;
+}
+
+#screen ul, #screen li, #screen h4, #screen h3, #screen h2, #screen h1, #screen p{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+
+
+
+	#screen .next, #screen .prev{
+		position:absolute;
+		top:250px;
+		margin:0;
+		padding:0;
+	}
+	#screen .prev{
+		left:10px;
+	}
+	#screen .next{
+		right:10px;
+	}
+
+
+	
+#sections{
+	overflow:hidden;
+	background-color:white;
+	width:782px;
+	height:560px;
+	clear:left;
+	margin-left:auto;
+	margin-right:auto;
+	border-left: 2px solid #f80414;
+	border-right: 2px solid #f80414;
+	border-top: 2px solid #f80414;
+	border-bottom: 0px;
+}
+	
+	#sections ul{
+		width:2000px;
+	}
+
+
+		#sections li{
+			float:left;
+			width:724px;
+			height:538px;
+			margin:16px 0;
+			padding:11px 30px;
+			border: 0px solid #ffff00;
+		}
+			#sections li.fallen{
+				margin-top:369px;
+			}
+			
+			#sections h2{
+				color:#054c4c;
+				margin:26px auto 16px auto;
+				font-family: "Comic Sans MS", "Frutiger", "Arial", sans serif;
+			}
+			#sections a{
+				font-weight:bolder;
+				text-decoration:none;
+			}
+
+			
+ /* end screen styling */	
+
+#footer{
+	background: #fff url(../images/menu/button-horizon.gif) center bottom no-repeat;
+	width:782px;
+	margin-left:auto;
+	margin-right:auto;
+	border-left: 2px solid #f80414;
+	border-right: 2px solid #f80414;
+	border-bottom: 2px solid #f80414;
+	border-top: 0px;
+	padding:0px 0px 0px 0px;
+	
+}
+
+#menu {
+	height:66px;
+	padding: 0px 0px 0px 0px;
+	margin: auto;
+	border:0px #ff0 solid;
+	}
+
+.main_menu {
+width: 540px;
+}
+	
+.sub_menu {
+width: 720px;
+margin: auto;
+}
+
+#menu li{
+    float:left;
+	list-style-type: none;
+	list-style:none;
+	line-height:0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}	
+
+#menu ul{
+	left:0px;
+	right:0px;
+	position: relative;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	height:59px;
+	border:0px #0f0 solid;
+}
+
+
+#menu a {
+	display:block;
+	border:0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	line-height:0px;
+	width:180px;
+	height:59px;
+}
+
+#btn_home a {
+	background:url(../images/menu/btn-home.gif) center -59px no-repeat;
+	border:0px;
+	}
+	
+#btn_artist a {
+	background:url(../images/menu/btn-artists.gif) center -59px no-repeat;
+	border:0px;
+	}
+#btn_location a {
+	background:url(../images/menu/btn-location.gif) center -59px no-repeat;
+	border:0px;
+	}
+#btn_contact a {
+	background:url(../images/menu/btn-contact.gif) center -59px no-repeat;
+	border:0px;
+	}
+
+
+#menu a.active, #buttons a:hover {
+	background-position: center 0px;
+}	
+	
+	
+a:link {
+    color: #CD2548;
+}
+a:visited {
+    color: #CD2548;
+}                                         
+a:hover {
+    color: #D0DA58;
+}
+a:active {
+    color: #CD2548;
+}
+
+ 

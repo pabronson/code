@@ -1,0 +1,359 @@
+/**
+ * Team Agile Internship Form and Page Styles
+ *
+ * Standard Form Layout (all parts) for Agile Internship Website
+ *
+ * This style has been designed by Paul Bronson, but reflects
+ * the composition of colors used for the website of the
+ * Department of Computer Science & Computer Information Systems;
+ * Highline Community College; Des Moines, WA
+ *
+ * @project   	Team Agile Internship Website
+ * @version   	SVN: $Id$
+ * @package  	HTML5-CSS3
+ * @author 		Paul Bronson <pbronson@uw.edu>
+ * @author 		Ryan Harmon <Ryan@Harmonized.net>
+ * @author 		Devin McIlnay <devin_mcilnay@students.highline.edu>
+ * @copyright 	2014 Team Agile, Highline Community College 
+ *
+ * @colordef 	#324E64; deep indigo: backgrounds text
+ * @colordef  	#346181; slate-teal: backgrounds text links
+ * @colordef 	#e57e05; pumpkin: link hover state
+*/
+
+/*
+	NOTE: This document is CSS and therefore it utilizes
+	a docblock convention for Cascading Style Sheets.
+	CSS comments are not currently standardized by 
+	any authority or working group.
+	
+	This document uses the CSSDOC commenting convention
+	which was adapted from JavaDoc by Tom Klingenberg,
+	Timo Derstappen and Dirk Jesse <cssdoc.net>
+*/
+
+.view-title {
+	padding:20px 10px 10px 10px;
+	font-size:1.5em;
+	color:#324E64;
+}
+
+.view-title em {
+	font-size:1em;
+	margin-left:6px;
+	color: purple;
+	font-style: normal;
+}
+
+table {
+	margin:10px auto;
+	border-collapse:collapse;
+	border:1px solid #006;
+	width:100%;
+	background-color:#FFF;
+	}
+
+tr:nth-child(odd){
+	background-color: #edeff4;
+	}
+
+td, th {
+	border:1px solid #324e64; 
+	padding:5px;
+	font-size:1em;
+	vertical-align:middle;
+	text-align:left;
+	}	
+
+th {
+	color:white;
+	background-color: #667b8b;
+	vertical-align:bottom;
+	}
+
+td {
+	vertical-align:middle;
+	}	
+
+th:nth-child(1), td:nth-child(1){
+	width:200px;
+	}	
+
+th:nth-child(2), td:nth-child(2){
+	width:200px;
+	}	
+
+/*------ FORM --------- */
+
+form {
+	width:890px;
+	margin-top: 1.2em;
+	margin-left: 2.5em;
+	padding: 0.6em;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: bold;
+	background-color: white;
+	}
+
+#tests {
+	margin-top:28px;
+	margin-left:-25px;
+	font-family:'Courier New', monospace;
+	clear:left;
+	font-weight:normal;
+	font-size:.75em;
+	line-height:1.6em;
+}
+
+#login {
+	margin: 41px;
+	width:420px;
+	float:left;
+	border:6px solid #eceef3; 
+	padding:10px;
+	
+}
+
+#login form {
+	width:340px;
+	margin: 8px auto 10px auto;
+}
+
+
+#login form fieldset {
+	padding: 0;
+	border:0;
+}
+
+
+#login-instructions {
+	float:right;
+	margin-top: 30px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	width:390px;
+	min-height:300px;
+	padding:0px 0px;	
+}
+
+#atn-students{
+	color:#cc3333;
+}
+
+#atn-employers{
+	color:#9eab05;
+}
+
+#login-instructions p{
+	color:#324e64;
+	line-height:1.5em;
+	font-size:1.05em;
+	font-weight:normal;
+	font-style:italic;
+	letter-spacing:.04em;
+
+}
+
+#register-instructions h3{
+	font-family: "Droid Sans", "Trebuchet MS", Arial, sans-serif;
+	color:#324e64;
+	margin:6px 12px 0 20px;
+	line-height:1.3em;
+	font-size:1.3em;
+	font-weight:bold;
+	letter-spacing:.04em;
+}
+
+#register-instructions p{
+	font-family: "Droid Sans", "Trebuchet MS", Arial, sans-serif;
+	color: purple;
+	margin:6px 0 6px 25px;
+	line-height:1.7em;
+	font-size:1.1em;
+	font-weight:bold;
+	letter-spacing:.04em;
+}
+
+#register-instructions p u{
+	margin-left:10px;
+	font-style:italic;
+}
+
+.warning {
+	font-family:Arial, sans-serif;
+	font-size:.9em;
+	line-height:.8em;
+	background-color:yellow;
+	margin-bottom:-20px;
+	padding:1px 3px;
+}
+
+blockquote {
+	width:890px;
+	margin-top: 1.2em;
+	margin-left: 2.5em;
+	padding: 0.6em;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: bold;
+	background-color: white;
+	}	
+	
+fieldset { 
+	width:95%;
+	margin: 0.8em 0.3em;
+	padding: .8em 1.5em 1.5em 1.5em;
+	line-height:1.85em;	
+	border: 1px solid #667b8b; 
+	font-family: Arial, sans serif;
+	}
+
+fieldset strong { 
+	font-size:1.1em;
+	margin-left:10px;
+	font-family: "Droid Sans", "Trebuchet MS", Arial, sans-serif;
+	}
+
+fieldset strong { 
+	font-size:1.15em;
+	margin-left:10px;
+	font-family: Arial, sans serif;
+	color: purple;
+	}
+
+fieldset em { 
+	font-size:1.1em;
+	margin-left:10px;
+	font-family: "Droid Sans", "Trebuchet MS", Arial, sans-serif;
+	letter-spacing:.02em;
+	color: #324e64;
+	}
+
+
+fieldset span {
+	display:inline-block;
+}	
+	
+fieldset span.skill-view {
+	display:inline-block;
+	margin-left:4px;
+	font-size:1.15em;
+	font-weight:bold;
+	color: purple;
+}
+
+.intro {
+	line-height:1.5em;	
+	} 
+
+legend {
+	font-family: "Droid Sans", "Trebuchet MS", Arial, sans-serif;
+	font-weight:bold;
+	font-size: 1.1em;
+	color:#667b8b;
+	}	
+
+legend  em{
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight:normal;
+	font-size: .95em;
+	font-style:italic;	
+	}	
+	
+	
+label {
+	padding: 8px;
+	font-family: Arial, sans serif;
+	font-weight:bold;
+	font-size: 0.9em;
+	color:purple;
+	}	
+
+textarea {
+	margin-left:12px;
+}	
+	
+.name label {
+	padding: 2px 2px 2px 12px;
+	font-family: Arial, sans serif;
+	font-weight:bold;
+	font-size: 0.9em;
+	color:purple;
+	}
+
+.textarea label {
+	padding: 2px 2px 2px 12px;
+	margin-left:0px;
+	font-family: Arial, sans serif;
+	font-weight:bold;
+	font-size: 0.9em;
+	color:purple;
+	}
+
+	
+.radio label {
+	padding: 2px 12px 2px 0px;
+	font-family: Arial, sans serif;
+	font-weight:bold;
+	font-size: 0.9em;
+	}	
+
+.check label {
+	padding: 2px 12px 2px 0px;
+	font-family: Arial, sans serif;
+	font-weight:bold;
+	font-size: 0.9em;
+	}	
+
+.login label {
+	padding: 8px;
+	text-align: right;
+	display:inline-block;
+	width:80px;
+	font-family: Arial, sans serif;
+	font-weight:bold;
+	font-size: 0.9em;
+	color:purple;
+	}	
+
+.term-desc {
+	padding: 2px 2px 2px 12px;
+	margin-left:20px;
+	font-family: Arial, sans serif;
+	font-weight:bold;
+	font-size: 0.9em;
+	color: purple;
+	}
+
+.mag-title {
+	padding: 2px 2px 0px 12px;
+	margin:0;
+	font-family: Arial, sans serif;
+	font-weight:bold;
+	font-size: 1em;
+	color: MidnightBlue;
+	}
+	
+.mag-desc {
+	padding: 0px 2px 2px 12px;
+	margin:0 16px 0 16px;
+	font-family: Arial, sans serif;
+	font-weight:bold;
+	font-size: 0.9em;
+	color: purple;
+	}
+
+.error {
+	font-weight:600;
+	margin-left:14px;
+	background-color:yellow;
+	}	
+
+.error em{
+	font-weight:900;
+	text-decoration:underline;
+	
+	
+	
+	

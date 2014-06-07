@@ -1,0 +1,293 @@
+/*
+	
+	Paul Bronson	
+	March 16, 2014
+	C SCI 212 - A10: PART 2 MAIN SITE CSS
+	http://ned.highline.edu/~pabronson/212/assignments/10/css/index.css
+
+*/
+
+
+body {
+	margin:6px; 
+	padding:0px;
+	text-align:center;
+	background-image: url(../images/snowdots.jpg);
+	background-color: #A2D6FB;
+	font-family: mead bold, comic sans ms, trebuchet ms, Frutiger, Arial ;
+	}
+
+#main {
+	width: 750px;
+	height:600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-size: 18px;
+	line-height:24px;
+	padding:8px 16px 16px 16px; 
+	border: 2px solid #f80414;
+	background: #fff url(../images/menu/button-horizon.gif) center bottom no-repeat;
+	}
+
+#art-main {
+	width: 758px;
+	height:1350px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-size: 18px;
+	line-height:24px;
+	padding:8px 16px 8px 16px; 
+	border: 2px solid #f80414;
+	background: #fff url(../images/menu/button-horizon.gif) center bottom no-repeat;
+	}
+
+#lightblue {
+	width:752px;
+	height:370px;
+	background:#DFFCFC;
+	border:0px #ff0 solid;
+	margin:auto;
+	}
+
+#notblue {
+	width:720px;
+	height:650px;
+	margin-left: auto;
+	margin-right: auto;
+	background:white;
+	border:0px #ff0 solid;
+	font-family: "mead bold", "comic sans ms", "trebuchet ms", Frutiger, Arial ;
+	font-size:28px;
+	margin:auto;
+	}
+
+#white {
+	padding-top:16px;
+	width:752px;
+	height:286px;
+	background:#FFF;
+	font-weight:bolder;
+	font-size:28px;
+	font-family: "mead bold", "comic sans ms", "trebuchet ms", Frutiger, Arial ;
+	line-height:38px;
+	border:0px #ff0 solid;
+	margin:auto;
+	}
+
+#featured {
+	width:752px;
+	height:40px;
+	background: #DFFCFC url(../images/featured.gif) 0px top no-repeat;
+	text-align: center;
+	}
+
+#located {
+	width:752px;
+	height:40px;
+	background: #DFFCFC url(../images/located.gif) 0px top no-repeat;
+	text-align: center;
+	}
+
+#banner{
+	width:700px;
+	height:600px;
+	margin:0px auto;
+	}
+
+#subbanner{
+	width:752px;
+	height:140px;
+	margin:0px auto;
+	border:0px solid #ff0;
+	}
+
+#subbanner{
+	width:752px;
+	height:140px;
+	margin:0px auto;
+	border:0px solid #ff0;
+	}
+
+.top-space{
+	padding-top:10px;
+	}
+
+.bot-space{
+	padding-bottom:10px;
+	}
+
+#subbanner2{
+	width:752px;
+	height:250px;
+	margin:0px auto;
+	border:0px solid #ff0;
+	}
+
+.googlemap {
+	padding-left:20px;
+	float:left;
+	width:420px;
+	}
+
+#directions {
+	color: #054C4C;
+	font-weight:bold;
+	font-size:17px;
+	font-family: "mead bold", "comic sans ms", "trebuchet ms", Frutiger, Arial ;
+	display:block;
+	padding:10px;
+	float:left;
+	width:255px;
+	line-height:28px
+	}
+
+#directions strong{
+	font-size:22px;
+	line-height:28px
+	}
+
+#menu {
+	height:59px;
+	padding: 0px 0px 0px 0px;
+	margin: auto;
+	border:0px #ff0 solid;
+	}
+
+.main_menu {
+	width: 540px;
+	}
+	
+.sub_menu {
+	width: 720px;
+	margin: auto;
+	}
+
+#menu li{
+    float:left;
+	list-style-type: none;
+	list-style:none;
+	line-height:0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}	
+
+#menu ul{
+	left:0px;
+	right:0px;
+	position: relative;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	height:59px;
+	border:0px #0f0 solid;
+}
+
+#menu a {
+	display:block;
+	border:0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	line-height:0px;
+	width:180px;
+	height:59px;
+}
+
+#btn_home a {
+	background:url(../images/menu/btn-home.gif) center -59px no-repeat;
+	border:0px;
+	}
+	
+#btn_artist a {
+	background:url(../images/menu/btn-artists.gif) center -59px no-repeat;
+	border:0px;
+	}
+#btn_location a {
+	background:url(../images/menu/btn-location.gif) center -59px no-repeat;
+	border:0px;
+	}
+#btn_contact a {
+	background:url(../images/menu/btn-contact.gif) center -59px no-repeat;
+	border:0px;
+	}
+
+#menu a.active, #buttons a:hover {
+	background-position: center 0px;
+}	
+	
+a:link {
+    color: #CD2548;
+}
+a:visited {
+    color: #CD2548;
+}                                         
+a:hover {
+    color: #D0DA58;
+}
+a:active {
+    color: #CD2548;
+}
+
+
+#presentor {
+	width:700px;
+	height:292px;
+	background: url(../images/presentor-10.gif) center top no-repeat;
+	text-align: center;
+	}
+
+#eventName {
+	width:700px;
+	height:132px;
+	background: url(../images/craftmas-handmade-fair-10.gif) center top no-repeat;
+	text-align: center;
+	}
+
+#eventDate {
+	width:700px;
+	height:78px;
+	background: url(../images/event-date-10.gif) center top no-repeat;
+	text-align: center;
+	}
+
+#eventLocation {
+	width:700px;
+	height:44px;
+	background: url(../images/event-location-10.gif) center top no-repeat;
+	text-align: center;
+	}
+
+#direction-banner{
+	width:750px;
+	height:200px;
+	background-image: url(../images/direction-banner.gif);
+	text-align: center;
+	}
+
+#gift-banner{
+	width:750px;
+	height:200px;
+	background-image: url(../images/gift-banner.jpg);
+	text-align: center;
+	}
+
+#contact-banner{
+	width:750px;
+	height:200px;
+	background-image: url(../images/contact-banner.gif);
+	text-align: center;
+	}
+
+.pink {color: #D22147; margin:10px;}
+
+.brown {	color: #5D2A1D; margin:10px;}
+
+.black {color: #000000; margin:10px; }
+
+.green {color: #988F2E; margin:10px;}
+
+.bigger {font-size:20px;}
+
+.address  { margin:30px; font-size:20px;}
+
+.hide {display:none;}

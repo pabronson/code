@@ -1,0 +1,75 @@
+<?php
+
+/**
+ * header include file for sub directories on internship website project  
+ * 
+ * @author 		Ryan Harmon <Ryan@Harmonized.net>
+ * @author 		Devin McIlnay <devin_mcilnay@students.highline.edu>
+ * @author 		Paul Bronson <pabronson@students.highline.edu>
+ * @copyright 	2014 Team Agile, Highline Community College 
+ * @version   	SVN: $Id$
+*/
+
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- This view will load from index.php controller and have header.inc.htm -->
+
+			<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+			<title>Highline Community College CS/CIS Internships</title>
+
+			<link href="css/coop-styles.css" rel="stylesheet" type="text/css">
+			<link href="css/coop-form.css" rel="stylesheet" type="text/css">
+            <!-- <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> --> <!-- Legacy JQuery -->
+            <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script> <!-- IE < 9 not supported -->
+            
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+    <div id="container">
+        
+        <header>
+	
+			<?php
+				/************************************************************************/
+				/********************* SESSION CHECK ************************************/
+				//session_start();
+				//check whether the user is logged in
+				
+				if(!isset($_SESSION['userId'])){
+					//display a login link
+					   
+					echo '<div class="login"><a href="login/index.php" class="button">login</a></div>';
+				
+				} else {
+						
+					echo '<div class="logout"><a href="login/logout.php" class="button">logout</a></div>';
+				}
+			?>
+		
+			<a href="index.php" id="homelink"><img width="110" height="100" src="img/Coops.gif" alt="View All Cooperatives" class="logo"></a>
+			<div id="title"><h1>Highline Community College</h1>
+			<h2><a href="index.php">CSCI / CIS Cooperative Education</a></h2></div>
+	
+			<?php if (isset($_SESSION['userEmail'])) { ?>
+				<h2 class="sub" align="right">(signed in as <?php echo $_SESSION['userEmail'].')';
+				if ($_SESSION['userType'] == 'admin') { echo ' :: <a href="index.php?page=adminControl" class="largerbutton">&nbsp;Administrator Controls&nbsp;</a>';}
+				if ($_SESSION['userType'] == 'organization') { echo ' :: <a href="index.php?page=addContact" class="largerbutton">&nbsp;Update Contact&nbsp;</a>';}?>
+				</h2>
+			<?php } ?>
+
+	    </header>
+
+		<!--<pre style="margin-left:20px;">SESSION:<br><?php print_r($_SESSION); ?></pre><br> -->
+		
+        <div id="content">
+		<!-- end include -->
+		<!-- begin page specific content -->

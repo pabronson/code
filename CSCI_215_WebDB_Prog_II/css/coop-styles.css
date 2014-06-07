@@ -1,0 +1,335 @@
+/**
+ * Team Agile Internship Page Styles
+ *
+ * Standard Layout (all parts) for Agile Internship Website
+ *
+ * This style has been designed by Paul Bronson, but reflects
+ * the composition of colors used for the website of the
+ * Department of Computer Science & Computer Information Systems;
+ * Highline Community College; Des Moines, WA
+ *
+ * @project   	Team Agile Internship Website
+ * @version   	SVN: $Id$
+ * @package  	HTML5-CSS3
+ * @author 		Paul Bronson <pbronson@uw.edu>
+ * @author 		Ryan Harmon <Ryan@Harmonized.net>
+ * @author 		Devin McIlnay <devin_mcilnay@students.highline.edu>
+ * @copyright 	2014 Team Agile, Highline Community College 
+ *
+ * @colordef 	#324E64; deep indigo: backgrounds text
+ * @colordef  	#346181; slate-teal: backgrounds text links
+ * @colordef 	#e57e05; pumpkin: link hover state
+*/
+
+/*
+	NOTE: This document is CSS and therefore it utilizes
+	a docblock convention for Cascading Style Sheets.
+	CSS comments are not currently standardized by 
+	any authority or working group.
+	
+	This document uses the CSSDOC commenting convention
+	which was adapted from JavaDoc by Tom Klingenberg,
+	Timo Derstappen and Dirk Jesse <cssdoc.net>
+*/
+
+body {
+	color: black;
+	font-size: 13px;
+	font-family: "Droid Sans", "Trebuchet MS", Arial, sans-serif;
+	line-height:1.5em;
+	background-color: #324E64;
+	background-repeat: repeat;
+}
+
+#container {
+	background-color: #fff;
+	width: 1020px;
+	margin: 0 auto;
+	border-top: 2px solid #333;
+	border-radius:10px;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	background-color:#fff;
+	min-height:300px;
+}
+
+/* Link Styles */
+
+a:link {
+    color: #346181;
+	text-decoration:none;
+}
+
+.table {
+	color: #346181;
+}
+
+.sub {
+	color: #fff;
+}
+
+a:visited {
+    color: #346181;
+	text-decoration:none;
+}
+
+a:hover {
+    color: #e57e05;
+	text-decoration:underline;
+}
+
+
+/* Header */
+
+header {
+	border:0px;
+	margin: 12px 12px 12px 14px;
+	text-align: left;
+	background-color: #ccc;
+	width: 992px;
+	min-height: 100px;
+	background-color: white;
+}
+
+#homelink {
+	float:left;
+	margin-right:14px;
+	margin-left:8px;
+}
+
+#title{
+	min-height: 80px;
+	vertical-align:bottom;
+}
+
+#title h1 {
+	padding:40px 0px 0px 0px;
+}
+
+#title h2 {
+	margin-top:12px;
+	margin-left:150px;
+	padding:0px 0px 8px 12px;
+}
+
+#userid {
+	float:right;
+	
+}
+
+div.login {
+	float:right;
+	margin-top:0px;
+	margin-left:14px;
+}
+
+div.logout {
+	float:right;
+	margin-top:0px;
+	margin-left:14px;
+}
+
+h1 {
+  border-right-width-value: 0px;
+  border-left-width-value: 0px;
+  border-right-style-value: none;
+  border-left-style-value: none;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 0;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  padding-top: 4px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  color: #346181;
+  margin-bottom: 0px;
+  border-top: 0px;
+  border-bottom-width: 0px;
+  font-size: 2.3em;
+  font-family: Frutiger,Arial,sans-serif;
+  background-color: #fff;
+
+}
+
+.sub {   /*sub-header */
+	padding: 1px 10px 3px 10px;
+	color: #fff;
+	background-color:#324e64;
+	font-size: 18px;
+	height:33px;
+	line-height:33px;
+	width: 90;
+}
+
+.logo {
+  padding-top: 0px;
+  padding-right: 14px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+  border-right-width-value: 2px;
+  border-left-width-value: 2px;
+  border-top-width-value: 2px;
+  border-bottom-width-value: 2px;
+  border-color: #346181;
+  float: left;
+}
+
+/* Footer */
+
+footer {
+	clear:both;
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #667b8b; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px auto;; 
+	width:980px;
+}
+
+footer p {
+	color:#666;
+	font-size:1.2em;
+	text-align:center;
+}
+
+footer a.w3c {
+	background-color:yellow;
+}
+
+/* Content Area */
+
+
+#content {
+	margin: 12px 12px 12px 14px;
+	min-height:400px;
+	padding-bottom:20px;
+}
+
+#about img {
+	float: left;
+	padding: 5px;
+}
+
+input[type=submit], .button:link, .button:visited {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #888;
+	display:inline-block;
+	color:#346181;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	min-width:90px;
+	padding:0px 8px 0px 8px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+input[type="submit"]:hover, .button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+input[type="submit"]:active, .button:active {
+	position:relative;
+	top:1px;
+}
+.largerbutton:link, .largerbutton:visited {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #888;
+	display:inline-block;
+	color:#346181;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:32px;
+	line-height:32px;
+
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.largerbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+
+.largerbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.activeText , .activeText:link, .activeText:visited, .activeText:hover, .activeText:active{
+	color:darkgreen;
+}
+
+.inactiveText, .inactiveText:link, .inactiveText:visited, .inactiveText:hover, .inactiveText:active {
+	color:darkred;
+}
+
+.statusButton {
+	border-color:lightblue;
+	border-width:2px;
+	border-style:outset;
+	background-color:#dfdfdf;
+	padding:1px;
+}
+
+.statusButtonEX { /* Bigger and better! */
+    padding: 2px;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.currentStatusText {
+	font-style:italic;
+	text-align:center;
+}
