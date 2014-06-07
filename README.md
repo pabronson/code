@@ -16,4 +16,4 @@ CSCI_212_WebDev_w_Javascript
 CSCI_215_WebDB_w_Javascript 
 > PHP, HTML, CSS  
 > a login form for a student internship website
-> this was a portion of the code for final project
+> (this is a small portion of the code)
